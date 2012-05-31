@@ -22,15 +22,20 @@ To check/debug your Nagios configuration:
 
 Of course, you must enable SNMP in the Arkoon using an Arkoon manager
 
-============================================================================
-In Nagios config file : /usr/local/nagios/etc/nagios.cfg add following lines
+In Nagios config file : /usr/local/nagios/etc/nagios.cfg add following lines :
+
 cfg_file=/usr/local/nagios/etc/objects/arkoon-commands.cfg
+
 cfg_file=/usr/local/nagios/etc/objects/arkoon-templates.cfg
+
 cfg_file=/usr/local/nagios/etc/objects/arkoon.cfg
+
 or
+
 cfg_file=/usr/local/nagios/etc/objects/arkoon_cluster.cfg
 
 Adapt IP addresses of Arkoon in cfg files
 
 ...
+
 Enjoy !
