@@ -1,9 +1,9 @@
-# nagios #
+# Nagios #
 
-Script, config files and icons to monitor an Arkoon firewall with Nagios
+Script, config files and icons to monitor an Arkoon firewall with Nagios.
 
 ## Installation instructions ##
-Files provided in this git repo have been tested using Debian squeeze (6.0.5)
+Files provided in this git repo have been tested using Debian squeeze (6.0.5).
 
 ### Nagios installation ###
 Nagios has been installed with following [method](http://wiki.monitoring-fr.org/nagios/debian-install).
@@ -18,9 +18,9 @@ Objects (*.cfg) must be copied in this directory :
 Images (*.gd2, *.gif, *.png) must be copied in this directory :
 /usr/local/nagios/share/images/logos
 
-### Configuration instructionsa ###
+### Configuration instructions ###
 ## Arkoon firewall configuration ##
-You must enable SNMP in the Arkoon using an Arkoon manager
+You must enable SNMP in the Arkoon using an Arkoon manager.
 
 ## Nagios configuration ##
 In Nagios config file : /usr/local/nagios/etc/nagios.cfg add following lines :
@@ -41,7 +41,7 @@ To check or debug your Nagios configuration:
 Enjoy !
 
 - - -
-####### This file uses Markdown format. ######
+###### This file uses Markdown format. ######
 * http://daringfireball.net/projects/markdown/
 * http://en.wikipedia.org/wiki/Markdown
 
