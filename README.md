@@ -18,11 +18,11 @@ Objects (*.cfg) must be copied in this directory :
 Images (*.gd2, *.gif, *.png) must be copied in this directory :
 /usr/local/nagios/share/images/logos
 
-### Configuration instructions ###
-## Arkoon firewall configuration ##
+## Configuration instructions ###
+### Arkoon firewall configuration ##
 You must enable SNMP in the Arkoon using an Arkoon manager.
 
-## Nagios configuration ##
+### Nagios configuration ##
 In Nagios config file : /usr/local/nagios/etc/nagios.cfg add following lines :
 * cfg_file=/usr/local/nagios/etc/objects/arkoon-commands.cfg
 * cfg_file=/usr/local/nagios/etc/objects/arkoon-templates.cfg
@@ -32,7 +32,7 @@ cfg_file=/usr/local/nagios/etc/objects/arkoon_cluster.cfg
 
 Adapt IP addresses of Arkoon in cfg files
 
-## Configuration check ##
+### Configuration check ##
 To check or debug your Nagios configuration:
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 
