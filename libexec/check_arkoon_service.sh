@@ -15,8 +15,7 @@ export STATE_DEPENDENT=4
 HOSTNAME=$1
 SERVICENAME=$2
 
-
-if /usr/bin/snmpwalk -v 2c -c public $HOSTNAME |/bin/grep "iso.3.6.1.2.1.25.4.2.1.2."|/bin/grep $SERVICENAME >/dev/null; then
+if /usr/bin/snmpwalk -v 2c -c public $HOSTNAME iso.3.6.1.2.1.25.4.2.1.2 |/bin/grep $SERVICENAME >/dev/null; then
 	echo "OK : service" $SERVICENAME "is running"
 	exit $STATE_OK
 else
